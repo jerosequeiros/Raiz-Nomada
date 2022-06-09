@@ -60,13 +60,13 @@
         
     <div class= "container">
     <div class="row">
-        <div id="productos" class="col-6">
-            <h1 id="modelodecaja2">Productos Raíz Nómada</h1> 
-    </div>
+      <div id="productos" class="col-11">
+        <h1 id="modelodecaja2">Productos Raíz Nómada</h1> 
+      </div>
     </div>
   </div>
 </div>
-</div>
+</div> 
   <div class="d-flex justify-content-center flex-row" id="cards-productos" class="mx-auto">
    
 
@@ -75,7 +75,7 @@
         <img src="./canastos.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-black-50 description">Canasto de cuero crudo trenzado, <br> Diametro 40cm <br> Alto 28cm</p>
-          <h5 class="text-primary">Precio: <span class="precio"> $ 5</span></h5>
+          <h5 class="text-black">Precio: <span class="precio"> $ 5</span></h5>
           <div class="d-grid gap-2">
           <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(5)"> Añadir al carrito </button>
         </div>
@@ -87,7 +87,7 @@
         <img src="./enlozados.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-black-50 description">Jarra gallo colorado bombé, <br> Platos: diametro 24cm  <br> profundidad 3cm </p>
-          <h5 class="text-primary">Precio: <span class="precio"> $ 10</span></h5>
+          <h5 class="text-black">Precio: <span class="precio"> $ 10</span></h5>
           <div class="d-grid gap-2">
           <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(10)"> Añadir al carrito </button>
         </div>
@@ -99,7 +99,7 @@
         <img src="./materas.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-black-50 description">Materas de cuero peludas <br> Materiales nobles que aportan calidez a vos y tus espacios </p>
-          <h5 class="text-primary">Precio: <span class="precio"> $ 15</span></h5>
+          <h5 class="text-black">Precio: <span class="precio"> $ 15</span></h5>
           <div class="d-grid gap-2">
           <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(15)"> Añadir al carrito </button>
         </div>
@@ -111,7 +111,7 @@
         <img src="./mesa entera.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text text-black-50 description">Descripción de la mesa entera <br> Materiales nobles que aportan calidez a vos y tus espacios </p>
-          <h5 class="text-primary">Precio: <span class="precio"> $ 20</span></h5>
+          <h5 class="text-black">Precio: <span class="precio"> $ 20</span></h5>
           <div class="d-grid gap-2">
           <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(20)"> Añadir al carrito </button>
         </div>
@@ -119,132 +119,24 @@
     </div>
     </div>
 
-
-<br>
-
-<div class="container">
-<table class="table table-striped bg-white" id="carrito">
-    <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Productos</th>
-          <th scope="col">Precio</th>
-          <th scope="col">Cantidad</th>
-        </tr>
-      </thead>
-      <tbody class="tbody">
-    
-      </tbody>
-  </table>
-
-  <br><br>
+    <br>
 
 <div class="row mx-4">
     <div class="col">
-        <h3 id="itemCartTotal">TOTAL: $0</h3>
+        <h4 id="Total">TOTAL: $0</h4>
     </div>
-   <div class="col d-flex justify-content-end">
+    <div id="botones" class="col d-flex justify-content-end">
        <button class="btn btn-success">COMPRAR</button>
-   </div>
-</div>
-</div>
-
-
-
-
-<!--
- <div class="container-fluid bg-dark position-sticky top-0">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Carrito</a>
-        </li>
-        <li class="nav-item" role="presentation">
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">1</div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">2</div>
-    </div>
-</div>
--->
-
-
-<!-- LO DE JAVASCRIP ANTES DE VER EL VIDEO DE YOUTUBE
     
-    console.log("soy externo");
-
-function HacerAparecer1() {
-  let contenedor = document.getElementById("canastos");
- contenedor.innerHTML =
-    "Canasto de cuero crudo trenzado <br> Medidas: diametro 40cm, Alto 28cm <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas";
-}
-
-function HacerAparecer2() {
-  let contenedor = document.getElementById("enlozados");
-  contenedor.innerHTML =
-    "enlozados <br> Jarra gallo colorado bombé <br> Platos 24cm de diamettro y 3cm de profundidad <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas";
-}
-
-function HacerAparecer3() {
-  let contenedor = document.getElementById("materas");
-  contenedor.innerHTML =
-    "Materas de cuero peludas <br> Tamaño ideal <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas";
-}
-
-function HacerAparecer4() {
-  let contenedor = document.getElementById("mesa");
-  contenedor.innerHTML =
-    "Descripción de la mesa entera <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas";
-}
-
--->
+       <button type="button" class="botoncarrito" onclick="Borrar()">
+    Vaciar Carrito</button>
+    </div> </div> 
 
 
+  <a href=" https://wa.me/+5492392518763?text=Hola,+quiero+ver+la+lista+de+precios">
+  <img src="./logo whatsapp.svg" id="icono-contacto" alt="logo whatsapp"></a>
 
- 
- <!--  
-     
-    <div class="columna1">
-     <h4>Canastos</h4>
-     <img src="./canastos.jpeg" width="100%" height="20%" alt="canastos">
-    
-    <div id="canastos"><input  type="button"
-    onclick="HacerAparecer1()"
-    value="Detalle">
-</div></div>
-    
- <div class="columna2">
-    <h4>Enlozados</h4>
-    <img src="./enlozados.jpeg" width="100%" height="20%" alt="enlozados">
 
-   <div id="enlozados"><input  type="button"
-    onclick="HacerAparecer2()"
-    value="Detalle">
-</div></div>
-
-<div class="columna3">
-    <h4>Materas</h4>
-    <img src="./materas.jpeg" width="100%" alt="materas">
-
-    <div id="materas"><input  type="button"
-    onclick="HacerAparecer3()"
-    value="Detalle">
-</div></div>
-
-<div class="columna4">
-    <h4>Mesa</h4>
-    <img src="./mesa entera.jpeg" width="100%" alt="mesa">
-
-    <div id="mesa"><input  type="button"
-    onclick="HacerAparecer4()"
-    value="Detalle">
-</div></div>
--->
-     <a href=" https://wa.me/+5492392518763?text=Hola,+quiero+ver+la+lista+de+precios">
-     <img src="./logo whatsapp.svg" id="icono-contacto" alt="logo whatsapp"></a>
-     
 <script src="main.js"></script>
 </body>
 </html>

@@ -111,30 +111,11 @@ h1 {
   opacity: 100%;
 }
 
-/* #productos2 {
-  background-color: rgb(65, 61, 61);
-  width: 300px;
-  border: 10px solid #704116;
-  padding: 30px;
-  margin: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 85%;
-}
-
-.columna1,
-.columna2,
-.columna3,
-.columna4 {
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  float: left;
-  width: 25%;
-}
-*/
 
 #cards-productos{
   margin: auto;
 }
+
 .description{
   height: 25px;
   overflow: hidden;
@@ -145,32 +126,13 @@ h1 {
   height: 80px;
 }
 
-#carrito{
-  min-height: 8vh;
-  max-width: 1000px;
-  margin: 0 auto;
-  width: 100%; 
+#botones{
+ margin-right: 4%;
 }
 
-.table__productos{
-display: flex;
-}
-
-.table__productos > img{
-  width: 9rem;
-  object-fit: contain;
-  border-radius: 6px;
-  margin-right: 20px; 
-}
-
-.table__cantidad > input{
-  width: 40px;
-  border: none;
-  outline: 0;
-  font-size: 16px;
-  font-weight: 700;
-  margin-right: 30px;
-  margin-bottom: 20px;
+.botoncarrito {
+  background-color: lightgray;
+  color: black;
 }
 
 #icono-contacto {
