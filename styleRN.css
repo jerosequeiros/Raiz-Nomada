@@ -11,8 +11,6 @@ header {
   z-index: 2;
   position: sticky;
   list-style-type: none;
-  position: sticky;
-  position: -webkit-sticky;
   top: 0%;
   background: rgba(220, 220, 213, 0.2)
 }
@@ -133,6 +131,12 @@ h1 {
 .botoncarrito {
   background-color: lightgray;
   color: black;
+}
+
+#footer{
+  background-color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 #icono-contacto {
