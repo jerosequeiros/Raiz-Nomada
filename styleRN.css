@@ -139,8 +139,15 @@ h1 {
   opacity: 90%;
 }
 
-#icono-contacto {
-  width: 3%;
+#Instagram{
+width: 40px;
+position: fixed;
+bottom: 10px;
+right: 55px;
+}
+
+#Whatsapp {
+  width: 30px;
   position: fixed;
   bottom: 10px;
   right: 20px;
